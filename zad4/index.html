@@ -27,7 +27,7 @@
           <a class="sectonsBtn" href="#experience">Doświadczenie</a>
           <a class="sectonsBtn" href="#education">Edukacja</a>
           <a class="sectonsBtn" href="#projects">Projekty</a>
-          <a class="sectonsBtn" id="toggleStyleBtn">Zmień styl</a>
+          <a id="toggleStyleBtn">Zmień styl</a>
         </nav>
       </div>
     </header>
@@ -89,8 +89,10 @@
           <h2 class="blue"><i class="fa-solid fa-address-book"></i> Kontakt</h2>
           <ul>
             <li>
-              <span class="bold"><i class="fa-solid fa-at"></i> mailto:</span>
-              kaczmarczykaleks21@gmail.com
+              <span class="bold"><i class="fa-solid fa-at"></i> email:</span>
+              <a href="mailto:kaczmarczykaleks21@gmail.com" class="bright-blue"
+                >kaczmarczykaleks21@gmail.com</a
+              >
             </li>
             <li>
               <span class="bold"><i class="fa-solid fa-phone"></i> Tel:</span>
@@ -155,49 +157,62 @@
           <h2 class="green">
             <i class="fa-regular fa-address-card"></i> Doświadczenie
           </h2>
-          <h3 class="white-smoke">
-            <i class="fa-solid fa-circle-user"></i> Projekty własne (2023 –
-            obecnie)
-          </h3>
-          <ul>
-            <li>
-              tworzę responsywne interfejsy użytkownika (HTML5, CSS3, Flexbox,
-              Grid),
-            </li>
-            <li>implementuję logikę aplikacji w JavaScript (ES6+),</li>
-            <li>buduję backend w Node.js z wykorzystaniem Express,</li>
-            <li>tworzę routing oraz dynamiczne widoki przy użyciu EJS,</li>
-            <li>
-              pracuję z formularzami, walidacją danych oraz manipulacją DOM,
-            </li>
-            <li>dbam o czytelność i strukturę kodu.</li>
-          </ul>
-          <h3 class="white-smoke">
-            <i class="fa-solid fa-school"></i> Projekty uczelniane (2023 – 2026)
-          </h3>
-          <ul>
-            <li>tworzenie stron i aplikacji webowych,</li>
-            <li>współpracę zespołową oraz podział zadań,</li>
-            <li>analizę wymagań projektowych,</li>
-            <li>prezentację oraz dokumentację wykonanych rozwiązań,</li>
-            <li>
-              rozwój umiejętności logicznego myślenia i rozwiązywania problemów.
-            </li>
-          </ul>
-          <h3 class="white-smoke">
-            <i class="fa-solid fa-arrow-trend-up"></i> Rozwój techniczny i kursy
-          </h3>
-          <ul>
-            <li>HTML i CSS — budowanie responsywnych stron internetowych,</li>
-            <li>JavaScript (ES6+) — praca z DOM, eventy, asynchroniczność,</li>
-            <li>
-              Node.js i Express — tworzenie backendu oraz obsługa serwera,
-            </li>
-            <li>
-              Projektowanie stron internetowych — podstawy UI/UX i struktury
-              aplikacji.
-            </li>
-          </ul>
+          <div>
+            <button
+              id="displaySectionBtn"
+              class="displaySectionBtn fa-solid fa-angle-up"
+            ></button>
+          </div>
+          <div id="experience-container">
+            <h3 class="white-smoke">
+              <i class="fa-solid fa-circle-user"></i> Projekty własne (2023 –
+              obecnie)
+            </h3>
+            <ul>
+              <li>
+                tworzę responsywne interfejsy użytkownika (HTML5, CSS3, Flexbox,
+                Grid),
+              </li>
+              <li>implementuję logikę aplikacji w JavaScript (ES6+),</li>
+              <li>buduję backend w Node.js z wykorzystaniem Express,</li>
+              <li>tworzę routing oraz dynamiczne widoki przy użyciu EJS,</li>
+              <li>
+                pracuję z formularzami, walidacją danych oraz manipulacją DOM,
+              </li>
+              <li>dbam o czytelność i strukturę kodu.</li>
+            </ul>
+            <h3 class="white-smoke">
+              <i class="fa-solid fa-school"></i> Projekty uczelniane (2023 –
+              2026)
+            </h3>
+            <ul>
+              <li>tworzenie stron i aplikacji webowych,</li>
+              <li>współpracę zespołową oraz podział zadań,</li>
+              <li>analizę wymagań projektowych,</li>
+              <li>prezentację oraz dokumentację wykonanych rozwiązań,</li>
+              <li>
+                rozwój umiejętności logicznego myślenia i rozwiązywania
+                problemów.
+              </li>
+            </ul>
+            <h3 class="white-smoke">
+              <i class="fa-solid fa-arrow-trend-up"></i> Rozwój techniczny i
+              kursy
+            </h3>
+            <ul>
+              <li>HTML i CSS — budowanie responsywnych stron internetowych,</li>
+              <li>
+                JavaScript (ES6+) — praca z DOM, eventy, asynchroniczność,
+              </li>
+              <li>
+                Node.js i Express — tworzenie backendu oraz obsługa serwera,
+              </li>
+              <li>
+                Projektowanie stron internetowych — podstawy UI/UX i struktury
+                aplikacji.
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="sections education" id="education">
           <h2 class="black">

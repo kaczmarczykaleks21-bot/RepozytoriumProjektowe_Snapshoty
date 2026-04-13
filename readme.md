@@ -32,7 +32,7 @@ C:.
 1. Pobierz projekt lub sklonuj repozytorium:
 
    ```
-   git clone
+   git clone https://github.com/kaczmarczykaleks21-bot/RepozytoriumProjektowe_Snapshoty.git
    ```
 
 2. Przejdź do folderu projektu:
@@ -62,6 +62,7 @@ Dane CV są przechowywane w plikach JavaScript i dynamicznie renderowane na stro
 ## 👨‍🎓 Autor
 
 Autor: **[Aleks Kaczmarczyk]**
+ID Studenta: **[ 66662 ]**
 Kierunek: Informatyka
 Uczelnia:[Akademia finansu i biznesu Vistula]
 

@@ -93,6 +93,19 @@ nav {
   text-decoration: none;
 }
 
+.displaySectionBtn {
+  background-color: #393e46;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.displaySectionBtn:hover {
+  cursor: pointer;
+}
+
 .sectonsBtn::after {
   content: "";
   position: absolute;

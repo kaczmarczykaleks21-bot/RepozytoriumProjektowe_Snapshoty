@@ -317,6 +317,26 @@ ul {
   opacity: 0.8;
 }
 
+.btns {
+  background-color: #393e46;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  border: #2c3037 2px solid;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.btns:hover {
+  background-color: white;
+  color: #2c3037;
+  cursor: pointer;
+}
+
 .center {
   text-align: center;
 }

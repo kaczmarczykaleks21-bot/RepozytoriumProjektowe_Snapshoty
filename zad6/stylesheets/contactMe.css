@@ -77,7 +77,3 @@ button:hover {
   color: white;
   cursor: pointer;
 }
-
-textarea {
-  min-width: 200px;
-}

@@ -21,11 +21,15 @@
     <main>
       <div class="form-container">
         <h2>Formularz kontaktowy</h2>
+
         <form onsubmit="sendMessage(event)">
           <input type="text" placeholder="Twoje imię" required />
           <input type="text" placeholder="Twoje nazwisko" required />
+
           <input type="email" placeholder="Email" required />
+
           <textarea rows="4" placeholder="Wiadomość" required></textarea>
+
           <button type="submit">Wyślij</button>
         </form>
       </div>

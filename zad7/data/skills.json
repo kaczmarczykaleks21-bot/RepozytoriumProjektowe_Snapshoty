@@ -1,0 +1,29 @@
+{
+  "umiejetnosci": {
+    "twarde": [
+      {
+        "nazwa": "język angielski",
+        "poziom": "C2"
+      },
+      {
+        "nazwa": "JavaScript"
+      },
+      {
+        "nazwa": "HTML i CSS"
+      },
+      {
+        "nazwa": "Node.js i Express.js"
+      },
+      {
+        "nazwa": "EJS"
+      }
+    ],
+    "miekkie": [
+      "zapał do nauki",
+      "pasja do programowania",
+      "opanowanie",
+      "logiczne myślenie",
+      "dobre umiejętności komunikacyjne"
+    ]
+  }
+}

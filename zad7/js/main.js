@@ -11,12 +11,14 @@ import {
   renderUniProjects,
   renderLanguages,
 } from "./render.js";
-
+import { initComments } from "./comments.js";
+initComments();
 // === ZMIENNE ===
 const stylesheet = document.getElementById("stylesheet");
 const toggleStyleBtn = document.getElementById("toggleStyleBtn");
 let isRed = true;
 
+const addCommentBtn = document.getElementById("addCommentBtn");
 const displaySectionBtn = document.getElementById("displaySectionBtn");
 const sectionExperience = document.getElementById("experience-container");
 let isExperienceDisplayed = true;
@@ -61,6 +63,11 @@ toggleStyleBtn.addEventListener("click", () => {
 displaySectionBtn.addEventListener("click", () => {
   displayExperience();
 });
+
+// addCommentBtn.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   console.log("Dodano komentarz!"); // ZAMIAST TEGO FUNKCJA
+// });
 
 // #region INICJALIZACJA DANYCH
 // Skills

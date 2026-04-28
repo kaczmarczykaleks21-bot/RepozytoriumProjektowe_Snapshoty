@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Aleks Kaczmarczyk</title>
     <link id="stylesheet" rel="stylesheet" href="./stylesheets/red.css" />
-    <script type="module" src="./js/main.js" defer></script>
+    <script type="module" src="./js/main.js"></script>
     <script
       src="https://kit.fontawesome.com/ac32e74fe2.js"
       crossorigin="anonymous"
@@ -232,6 +232,22 @@
                 </li>
               </ul>
             </div>
+          </div>
+        </section>
+        <section>
+          <h2>Komentarze</h2>
+          <form id="comments-form">
+            <input
+              class="inputs"
+              type="text"
+              id="comment-input"
+              placeholder="Napisz komentarz..."
+              required
+            />
+            <button type="submit" id="addCommentBtn" class="btns">Dodaj</button>
+          </form>
+          <div>
+            <ul id="comments-section"></ul>
           </div>
         </section>
       </div>

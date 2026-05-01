@@ -11,7 +11,7 @@ body {
   background-color: #065706;
   display: flex;
   flex-direction: column;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style: normal;
 }
 
@@ -43,7 +43,7 @@ header {
   border-radius: 100px;
 }
 
-.sectonsBtn {
+.sectionsBtn {
   background-color: #393e46;
   color: white;
   border: none;
@@ -73,7 +73,7 @@ nav {
 }
 
 #toggleStyleBtn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -106,8 +106,8 @@ nav {
   cursor: pointer;
 }
 
-.sectonsBtn::after {
-  content: "";
+.sectionsBtn::after {
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -117,24 +117,23 @@ nav {
   transition: 0.3s;
 }
 
-.sectonsBtn:hover {
+.sectionsBtn:hover {
   cursor: pointer;
 }
 
-.sectonsBtn:hover::after {
+.sectionsBtn:hover::after {
   background: #39ff14;
-  box-shadow:
-    0 0 5px #39ff14,
-    0 0 10px #39ff14,
-    0 0 20px #39ff14;
+  box-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
 }
 
 main {
   color: white;
   flex: 1;
   margin-top: 100px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -145,9 +144,11 @@ main {
   align-items: center;
   font-size: 1.2rem;
   margin-bottom: 200px;
+  gap: 1em;
+  padding: 8px;
 }
 
-.sectons h2 {
+.sections h2 {
   font-size: 2rem;
   border-left: white solid 2px;
 }

@@ -1,0 +1,32 @@
+{
+  "projekty_wlasne": {
+    "okres": "2023-obecnie",
+    "opis": [
+      "tworzę responsywne interfejsy użytkownika (HTML5, CSS3, Flexbox, Grid)",
+      "implementuję logikę aplikacji w JavaScript (ES6+)",
+      "buduję backend w Node.js z wykorzystaniem Express",
+      "tworzę routing oraz dynamiczne widoki przy użyciu EJS",
+      "pracuję z formularzami, walidacją danych oraz manipulacją DOM",
+      "dbam o czytelność i strukturę kodu"
+    ]
+  },
+
+  "projekty_uczelniane": {
+    "okres": "2023 - 2026",
+    "opis": [
+      "tworzenie stron i aplikacji webowych",
+      "współpracę zespołową oraz podział zadań",
+      "analizę wymagań projektowych",
+      "prezentację oraz dokumentację wykonanych rozwiązań",
+      "rozwój umiejętności logicznego myślenia i rozwiązywania problemów"
+    ]
+  },
+  "rozwoj_techniczny": {
+    "opis": [
+      "HTML i CSS — budowanie responsywnych stron internetowych",
+      "JavaScript (ES6+) — praca z DOM, eventy, asynchroniczność",
+      "Node.js i Express — tworzenie backendu oraz obsługa serwera",
+      "Projektowanie stron internetowych — podstawy UI/UX i struktury aplikacji"
+    ]
+  }
+}

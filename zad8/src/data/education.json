@@ -1,0 +1,42 @@
+{
+  "wyksztalcenie": {
+    "kierunek": "Informatyka",
+    "stopien": "studia I stopnia (inżynierskie/licencjackie)",
+    "uczelnia": "Akademia Finansów i Biznesu Vistula",
+    "okres": "2023 – 2026",
+    "status": "aktualnie 3 rok studiów"
+  },
+  "stack_technologiczny": [
+    "HTML5",
+    "CSS3 (Flexbox, Grid, Responsywny design)",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Express.js",
+    "EJS"
+  ],
+  "jezykiObce": [
+    {
+      "jezyk": "angielski",
+      "poziom": "C2",
+      "opis": "biegła znajomość w mowie i piśmie"
+    }
+  ],
+  "kursy": [
+    {
+      "nazwa": "Kurs HTML/CSS",
+      "link": "https://www.udemy.com/course/web-developer-course-on-creating-a-business-website/"
+    },
+    {
+      "nazwa": "Kurs JavaScript",
+      "link": "https://www.udemy.com/course/the-complete-javascript-course/"
+    },
+    {
+      "nazwa": "Kurs Node.js",
+      "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+    },
+    {
+      "nazwa": "Kurs projektowania stron internetowych",
+      "link": "https://www.udemy.com/course/web-design-secrets/"
+    }
+  ]
+}
